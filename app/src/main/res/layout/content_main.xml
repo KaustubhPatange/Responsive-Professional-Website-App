@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   !-->
+<android.support.design.widget.CoordinatorLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/swiperefresh"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="net.example.website.app.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.github.ksoichiro.android.observablescrollview.ObservableWebView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/cwebview"
+            android:layout_below="@+id/progressBar" >
+
+        </com.github.ksoichiro.android.observablescrollview.ObservableWebView>
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+      android:layout_marginTop="180dp"
+
+        android:background="@android:color/transparent"
+        android:max="100"
+        android:visibility="visible" />
+
+</android.support.design.widget.CoordinatorLayout >
+
+    <!--</android.support.constraint.ConstraintLayout>!-->

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_name"
+        android:title="Refresh"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_search1"
+        android:title="Search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_forward"
+        android:orderInCategory="100"
+        android:title="Forward"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_stop"
+        android:orderInCategory="100"
+        android:title="Stop"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_owp"
+        android:orderInCategory="100"
+        android:title="Open With.."
+        app:showAsAction="never" />
+        <item
+        android:id="@+id/action_webinfo"
+        android:orderInCategory="100"
+        android:title="Web Info"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:title="Exit"
+        app:showAsAction="never" />
+
+</menu>

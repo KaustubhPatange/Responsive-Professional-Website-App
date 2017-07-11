@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">KP\'S TV</string>
+    <string name="packagename">net.capstricks.developerkp.kpstv</string>
+    <string name="Ownername">Kaustubh Patange</string>
+
+    <!-- TODO EDIT Main Activity Stuffs -->
+    <string name="MainID">Home</string>
+    <string name="Page1ID">Development Tools</string>
+    <string name="Page2ID">Other Developments</string>
+    <string name="Page3ID">Official Channel</string>
+    <string name="Page4ID">Guides</string>
+    <string name="Page5ID">Author</string>
+    <string name="Page6ID">Github</string>
+    <string name="Page7ID">XDA</string>
+    <string name="MainWebsite">https://www.developerkp.capstricks.net</string>
+    <string name="Page1">http://developerkp.capstricks.net/index.php/category/development/</string>
+    <string name="Page2">http://developerkp.capstricks.net/index.php/category/mini-tools/</string>
+    <string name="Page3">http://developerkp.capstricks.net/index.php/category/guides/</string>
+    <string name="Page4">http://developerkp.capstricks.net/index.php/support/about-me/</string>
+    <string name="Page5">https://github.com/KaustubhPatange/</string>
+    <string name="Page6">https://forum.xda-developers.com/member.php?u=7424515</string>
+    <string name="YoutubeLink">https://www.youtube.com/c/KPSTV2016</string>
+    <!-- Set a Page7 for not having youtube link
+    <string name="Page6">https://forum.xda-developers.com/member.php?u=7424515</string>
+    -->
+
+    <string name="EmailID">developerkp16@gmail.com</string>
+
+    <string name="InterstitialAds_ADBMOD">ca-app-pub-1763645001743174~6222098042</string>
+    <string name="interstitial_full_screen">ca-app-pub-1763645001743174/9175564444</string>
+
+    <!-- TODO EDIT Settings Preference THIS -->
+
+<string name="aboutdialog">
+    <b>KP\'S TV App: </b>\n\n
+    Made with Android Studio by KP\n
+    Special Thanks to <i>Shripal Bro</i>\n
+    Without which I couldn\'t do it all alone\n\n
+    <b>Contributors: </b>\n
+    -Shripal Jain (shripal17)\n
+    -Rishabh Singh (rishi.you)\n
+    -ksoichiro (Observable Webview)\n\n
+    <i>App Version: 1.0\n
+     Copyright KP @2017</i>
+</string>
+
+    <string name="changelog">
+    <b>V1.0 (06/07/2017): </b>\n
+        -Initial Release\n
+    -Public Commit on Github\n\n
+    </string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+</resources>

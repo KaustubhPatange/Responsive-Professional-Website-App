@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--To add icon to image use android:icon property
+    // For eg: android:icon="@drawable/ic_menu_send"-->
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/MainID" />
+        <item
+            android:id="@+id/nav_devtool"
+            android:title="@string/Page1ID" />
+        <item
+            android:id="@+id/nav_othdev"
+            android:title="@string/Page2ID" />
+        <item
+            android:id="@+id/nav_youtube"
+            android:title="@string/Page3ID"></item>
+        <item
+
+            android:id="@+id/nav_guide"
+            android:title="@string/Page4ID"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_author"
+                android:title="@string/Page5ID" />
+            <item
+                android:id="@+id/nav_github"
+                android:title="@string/Page6ID" />
+            <item
+                android:id="@+id/nav_xda"
+                android:title="@string/Page7ID" />
+            <item
+                android:id="@+id/nav_email"
+                android:title="Send Email"
+                />
+        </menu>
+    </item>
+
+</menu>

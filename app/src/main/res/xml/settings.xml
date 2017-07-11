@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="browsing_category"
+        android:title="Browsing">
+
+        <CheckBoxPreference
+            android:key="screen_on"
+            android:defaultValue="false"
+            android:summary="Keep Screen always on while browsing"
+            android:title="Screen on" />
+
+
+        <CheckBoxPreference
+            android:key="load_external_links"
+            android:summary="Load externel links within app"
+            android:defaultValue="false"
+            android:title="Load Links" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="show_ads"
+            android:summary="Please Support Us"
+            android:title="Enable Interstitial Ads" />
+
+        <CheckBoxPreference
+            android:title="Show Exit Confirmation"
+            android:summary="Show confimation Dialog box before exit"
+            android:key="exit_confirmation_disabled"
+            android:defaultValue="true"/>
+
+        <Preference
+            android:title="Open App Details"
+            android:key="clear_browsing_data" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Other"
+        android:key="other_category">
+        <CheckBoxPreference
+            android:title="Recieve Notification"
+            android:summary="Recieve Updates from Us"
+            android:key="rec_not"
+            android:defaultValue="true"/>
+        <Preference
+            android:key="check_pm"
+            android:summary="Check if the Permissions are Granted"
+            android:title="Grant Permission"
+            />
+
+
+        <Preference
+            android:key="open_download"
+            android:summary="Open /sdcard/Download/"
+            android:title="Open Download Directory"
+            />
+
+        <Preference
+            android:key="open_source"
+            android:summary="Source with help kit held on Github"
+            android:title="Open Source Template"
+          />
+
+        <Preference
+            android:key="changelog"
+            android:title="Changelog"/>
+
+        <Preference
+            android:key="about"
+            android:title="About"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>
