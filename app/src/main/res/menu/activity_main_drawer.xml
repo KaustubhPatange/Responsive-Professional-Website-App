@@ -23,7 +23,7 @@
             android:title="@string/Page4ID"/>
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="@string/AddressID">
         <menu>
             <item
                 android:id="@+id/nav_author"
