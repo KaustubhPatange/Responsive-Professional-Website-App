@@ -611,36 +611,34 @@ public void loadwebview(){
             // Handle the camera action
         } else if (id == R.id.nav_devtool) {
             test.loadUrl(getString(R.string.Page1));
-            createSnackbar("Loading Development Tools", "Stop");
+            createSnackbar("Loading Mobile Finder", "Stop");
 
         } else if (id == R.id.nav_othdev) {
             test.loadUrl(getString(R.string.Page2));
-            createSnackbar("Loading Other Developments", "Stop");
+            createSnackbar("Loading Earn Rewards", "Stop");
 
         } else if (id == R.id.nav_guide) {
             test.loadUrl(getString(R.string.Page3));
-            createSnackbar("Loading Guides", "Stop");
+            createSnackbar("Loading Tips and Tricks", "Stop");
 
         } else if (id == R.id.nav_author) {
             test.loadUrl(getString(R.string.Page4));
-            createSnackbar("Loading Author Info", "Stop");
+            createSnackbar("Loading Mobile Category", "Stop");
 
         } else if (id == R.id.nav_github) {
             test.loadUrl(getString(R.string.Page5));
-            createSnackbar("Loading Author's Github Account", "Stop");
+            createSnackbar("Loading PC/Mac Category", "Stop");
 
         } else if (id == R.id.nav_xda) {
             test.loadUrl(getString(R.string.Page6));
-            createSnackbar("Loading Author's XDA Account", "Stop");
+            createSnackbar("Loading Android Games", "Stop");
         } else if (id == R.id.nav_youtube) {
             Intent browserIntent = new Intent(Intent.ACTION_VIEW,
-                    Uri.parse(getString(R.string.YoutubeLink)));
+            Uri.parse(getString(R.string.YoutubeLink)));
             startActivity(browserIntent);
 
             // if you do not have youtube link..
             // TODO Edit This below text,, remove the comments and add link to page7 in strings.xml
-            // test.loadUrl(getString(R.string.Page7));
-          //  createSnackbar("Loading Author's XDA Account", "Stop");
         } else if (id == R.id.nav_email){
             Email();
         }
