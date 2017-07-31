@@ -611,34 +611,34 @@ public void loadwebview(){
             // Handle the camera action
         } else if (id == R.id.nav_devtool) {
             test.loadUrl(getString(R.string.Page1));
-            createSnackbar("Loading Mobile Finder", "Stop");
+            createSnackbar("Loading " + getString(R.string.Page1ID), "Stop");
 
         } else if (id == R.id.nav_othdev) {
             test.loadUrl(getString(R.string.Page2));
-            createSnackbar("Loading Earn Rewards", "Stop");
+            createSnackbar("Loading " + getString(R.string.Page2ID), "Stop");
 
         } else if (id == R.id.nav_guide) {
             test.loadUrl(getString(R.string.Page3));
-            createSnackbar("Loading Tips and Tricks", "Stop");
+            createSnackbar("Loading " + getString(R.string.Page3ID), "Stop");
 
         } else if (id == R.id.nav_author) {
             test.loadUrl(getString(R.string.Page4));
-            createSnackbar("Loading Mobile Category", "Stop");
+            createSnackbar("Loading " + getString(R.string.Page4ID), "Stop");
 
         } else if (id == R.id.nav_github) {
             test.loadUrl(getString(R.string.Page5));
-            createSnackbar("Loading PC/Mac Category", "Stop");
+            createSnackbar("Loading " + getString(R.string.Page5ID), "Stop");
 
         } else if (id == R.id.nav_xda) {
             test.loadUrl(getString(R.string.Page6));
-            createSnackbar("Loading Android Games", "Stop");
+            createSnackbar("Loading " + getString(R.string.Page6ID), "Stop");
         } else if (id == R.id.nav_youtube) {
+         // TODO Edit This below text,, add the comments and add link to page7 in strings.xml
             Intent browserIntent = new Intent(Intent.ACTION_VIEW,
             Uri.parse(getString(R.string.YoutubeLink)));
             startActivity(browserIntent);
-
-            // if you do not have youtube link..
-            // TODO Edit This below text,, remove the comments and add link to page7 in strings.xml
+           //test.loadUrl(getString(R.string.Page7));
+           // createSnackbar("Loading " + getString(R.string.Page7ID), "Stop");
         } else if (id == R.id.nav_email){
             Email();
         }
