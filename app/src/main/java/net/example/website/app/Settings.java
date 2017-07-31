@@ -202,7 +202,7 @@ OpenDownloads.setOnPreferenceClickListener(new Preference.OnPreferenceClickListe
             builder.setIcon(R.drawable.ic_info_black_24dp);
            // builder.setMessage(getString(R.string.aboutdialog))
               //      .setTitle("About");
-            builder.setMessage(Html.fromHtml("<b>KP'S TV App</b><br><br>Made with Android Studio by KP<br>Special Thanks to <i>Shripal Bro</i><br>Without which I couldn't do it all alone<br><br><b>Contributors:</b><br>  -Shripal Jain (shripal17)<br>  -Rishabh Singh (rishi.you)</b>  -ksoichiro (Observable scrollview)<br><br><i>App Version: "+BuildConfig.VERSION_NAME+"<br>Copyright KP @2017</i>"))
+            builder.setMessage(R.string.aboutdialog)
                     .setTitle("About");
 
             builder.setPositiveButton("Nice!", new DialogInterface.OnClickListener() {
