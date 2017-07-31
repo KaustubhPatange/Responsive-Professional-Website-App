@@ -4,6 +4,7 @@
     <string name="Ownername">Kaustubh Patange</string>
 
     <!-- TODO EDIT Main Activity Stuffs -->
+    <string name="AddressID">Communicate</string>
     <string name="MainID">Home</string>
     <string name="Page1ID">Development Tools</string>
     <string name="Page2ID">Other Developments</string>
@@ -21,7 +22,7 @@
     <string name="Page6">https://forum.xda-developers.com/member.php?u=7424515</string>
     <string name="YoutubeLink">https://www.youtube.com/c/KPSTV2016</string>
     <!-- Set a Page7 for not having youtube link
-    <string name="Page6">https://forum.xda-developers.com/member.php?u=7424515</string>
+    <string name="Page7">https://forum.xda-developers.com/member.php?u=7424515</string>
     -->
 
     <string name="EmailID">developerkp16@gmail.com</string>
