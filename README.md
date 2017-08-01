@@ -20,7 +20,7 @@ From here Select Default Gradle wrapper and Offline work.
 
 # Editing Template
 This may take time as per your knowledge, coz actually editing this you must have some basic knowledge of App Development. Soon I am Making a Video on Editing this Template. Till now Read the Quick Task below
-
+<a href="https://kpstvhub.com/advancewebview/"><img src="https://townhall.ie/wp-content/uploads/2016/10/Read-more.png" width="100" height="40" alt="Read">
 1. Change the Package name of the App (*disable Compact Empty Middle Packages and Edit using Refractor*)
 2. Edit the following file according to your need
 <pre><code>App > src > main > res > values > strings.xml</code></pre>
